@@ -1,6 +1,6 @@
-# IconFont
+## [**IconFont的使用**](https://github.com/mokong/IconFont)
 
-## **IconFont的使用**
+### [github链接](https://github.com/mokong/IconFont)
 
 ### 背景： 最近设计提了要求，切图用IconFont
 
@@ -46,7 +46,7 @@
 
 4. 使用
 
-label使用，生成attributeString
+Swift label使用，生成attributeString
 
 ```Swift
         // 使用枚举Str
@@ -58,8 +58,12 @@ label使用，生成attributeString
         displayLabel.attributedText = attributeStr1
 
 ```
+OC label使用，生成attributeString
+``` Swift
+NSMutableString *jiantouStr = [MKIconFont attributedStringFromIconInt:MKFontIconIntZuojiantouIcon size:CGSizeMake(19.0, 19.0) color:[UIColor redColor]];
+```
 
-生成image
+Swift 生成image
 
 ```Swift
         // 使用枚举Str
@@ -72,6 +76,11 @@ label使用，生成attributeString
 
 ```
 
+OC 生成image
+```Swift
+        UIImage *backIcon = [MKIconFont imageFromIconInt:MKFontIconIntZuojiantouIcon size:CGSizeMake(19.0, 19.0) color:[UIColor redColor]];
+
+```
 
 
 
