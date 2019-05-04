@@ -60,7 +60,7 @@ Swift label使用，生成attributeString
 ```
 OC label使用，生成attributeString
 ``` Swift
-NSMutableString *jiantouStr = [MWIconFont attributedStringFromIconInt:MWFontIconIntZuojiantouIcon size:CGSizeMake(19.0, 19.0) color:[UIColor redColor]];
+NSMutableString *jiantouStr = [MWIconFont attributedStringFromIconInt:MWFontIconIntZuojiantouIcon size:CGSizeMake(19.0, 19.0) color:[UIColor redColor] edgeInsets:UIEdgeInsetsZero];
 ```
 
 Swift 生成image
@@ -78,7 +78,7 @@ Swift 生成image
 
 OC 生成image
 ```Swift
-        UIImage *backIcon = [MWIconFont imageFromIconInt:MWFontIconIntZuojiantouIcon size:CGSizeMake(19.0, 19.0) color:[UIColor redColor]];
+        UIImage *backIcon = [MWIconFont imageFromIconInt:MWFontIconIntZuojiantouIcon size:CGSizeMake(19.0, 19.0) color:[UIColor redColor] edgeInsets:UIEdgeInsetsZero];
 
 ```
 
